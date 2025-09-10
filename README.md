@@ -114,7 +114,7 @@ model = Seq2Seq(encoder, decoder, data_prep.max_source_length, data_prep.max_tar
                 data_prep.target_char2int, data_prep.num_decoder_tokens, device)
 ```
 
-## Original Features Preserved
+## Features
 
 - Character-level transliteration from English to Hindi
 - Support for variable sequence lengths
@@ -123,11 +123,3 @@ model = Seq2Seq(encoder, decoder, data_prep.max_source_length, data_prep.max_tar
 - Model checkpointing
 - Weights & Biases integration for experiment tracking
 
-## Improvements Over Original
-
-1. **Modularity**: Code split into logical modules
-2. **Reusability**: Easy to import and use components
-3. **Command Line Interface**: No need to modify code for different configurations
-4. **Better Error Handling**: More robust error checking
-5. **Documentation**: Clear docstrings and comments
-6. **Flexibility**: Easy to extend with new features
