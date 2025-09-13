@@ -1,5 +1,6 @@
 # Seq2Seq Transliteration Model - Refactored
-
+## Project Report
+https://wandb.ai/ch23s019/Assignment_3_CS6910/reports/CS6910-Assignment-3--Vmlldzo3Njg5MjQw
 This is a refactored version of the original Jupyter notebook implementation, organized into modular Python files for better maintainability and reusability.
 
 ## Project Structure
